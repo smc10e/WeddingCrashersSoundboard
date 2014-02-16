@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JeremyActivity" >
+	<ImageView
+	    android:src="@drawable/page1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/jeremyImage"></ImageView>
+	<ImageButton
+	    android:src="@drawable/arrow"
+	    android:layout_width="47dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="227dp"
+		android:layout_marginLeft="40dp"
+		android:background="@color/white"
+		android:id="@+id/arrow"></ImageButton>
+	<TextView
+	    android:id="@+id/jeremy_q1text"
+	    android:text="@string/jeremy_q1"
+	    android:textColor="@color/red"
+	    android:layout_marginTop="237dp"
+	    android:layout_marginLeft="90dp"
+	    android:background="@color/white"
+	    android:layout_width="185dp"
+	    android:layout_height="wrap_content"></TextView>
+	    
+
+</RelativeLayout>
