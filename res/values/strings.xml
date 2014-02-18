@@ -7,8 +7,9 @@
     <string name="play_trailer">PLAY TRAILER</string>
     <string name="buy_the_movie">BUY THE MOVIE</string>
     <string name="help">HELP</string>
-    <string name="jeremy_q1">"Tattoo on the middle back..."</string>
+    <string name="jeremy_q1">"Tattoo on the lower back..."</string>
     <string name="Jeremy">JEREMY</string>
+    <string name="John">JOHN</string> 
     <string name="red">Red</string>
     <string name="blue">Blue</string>
     <string name="orange">Orange</string>
@@ -30,5 +31,6 @@
     <string name="title_activity_select_character">SelectCharacterActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_jeremy">JeremyActivity</string>
+    <string name="title_activity_john">JohnActivity</string>
 
 </resources>

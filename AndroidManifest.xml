@@ -33,6 +33,10 @@
             android:label="@string/title_activity_jeremy"
             android:screenOrientation="portrait" >
         </activity>
+        <activity
+            android:name="com.soundboardinc.weddingcrasherssoundboard.JohnActivity"
+            android:label="@string/title_activity_john" >
+        </activity>
     </application>
 
 </manifest>
