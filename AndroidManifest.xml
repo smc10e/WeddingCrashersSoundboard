@@ -19,8 +19,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".CharacterActivity" />
         <activity android:name=".Pageview_layout" />
+=======
+        <activity
+            android:name="com.soundboardinc.weddingcrasherssoundboard.SelectCharacterActivity"
+            android:label="@string/title_activity_select_character"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soundboardinc.weddingcrasherssoundboard.JeremyActivity"
+            android:label="@string/title_activity_jeremy"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.soundboardinc.weddingcrasherssoundboard.JohnActivity"
+            android:label="@string/title_activity_john" >
+        </activity>
+>>>>>>> 3539a510bceb297b552d28bb3afd2334172b58a6
     </application>
 
 </manifest>

@@ -30,7 +30,6 @@ public class IntroActivity extends Activity {
 		myTextView1.setTypeface(typeFace);
 		myTextView2.setTypeface(typeFace);
 		myTextView3.setTypeface(typeFace);
-		setVolumeControlStream(AudioManager.STREAM_MUSIC);
 		
 		mpsplash = MediaPlayer.create(this, R.raw.faith);
 		//mpsplash.start();
