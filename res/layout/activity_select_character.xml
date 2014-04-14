@@ -1,5 +1,57 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:background="@drawable/select_character" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ListView android:id="@id/list_character" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="75.0sp" android:cacheColorHint="#00000000" />
+<<<<<<< HEAD
 </LinearLayout>
+=======
+</LinearLayout>
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SelectCharacterActivity" >
+    
+    <ImageView
+        android:id="@+id/introImage"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/select_character" >
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical" >
+	   <Button
+	        android:id="@+id/Jeremy"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Jeremy"
+	        android:textColor="@color/red"
+	        android:clickable="true"
+	        android:onClick="jeremyPage"
+	    ></Button>
+	        <Button
+	        android:id="@+id/John"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/John"
+	        android:textColor="@color/red"
+	        android:clickable="true"
+	        android:onClick="johnPage"
+	    ></Button>
+	</LinearLayout>
+</RelativeLayout>
+>>>>>>> 3539a510bceb297b552d28bb3afd2334172b58a6
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1

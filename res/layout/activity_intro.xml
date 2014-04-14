@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/intro" >
+=======
+<<<<<<< HEAD
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/intro" >
+=======
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity" >
+
+    <ImageView
+        android:id="@+id/introImage"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/intro" >
+
+    </ImageView>
+ 	<Button
+ 	    android:id="@+id/help_button" 
+		android:text="@string/help" 
+		android:layout_width="wrap_content"
+		android:layout_height="40dp"
+		android:layout_toLeftOf="@+id/toggle"
+		android:textSize="10dp"
+		android:background="#07000000"
+		android:clickable="true">
+	</Button>
+	<ToggleButton 
+   		android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/check"  
+        android:layout_margin="10dp"
+        android:textOn=""
+        android:textOff=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignParentRight="true"/>
+>>>>>>> 3539a510bceb297b552d28bb3afd2334172b58a6
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
         android:orientation="vertical" >
 
         <Button
@@ -17,17 +62,58 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/trailer"
+=======
+        android:layout_marginBottom="122dp"
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@id/watch_trailer"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+<<<<<<< HEAD
+            android:drawableLeft="@drawable/trailer"
+=======
+            android:layout_gravity="center"
+            android:clickable="true"
+>>>>>>> 3539a510bceb297b552d28bb3afd2334172b58a6
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
             android:text="@string/play_trailer"
             android:textColor="@color/red" />
 
         <Button
+<<<<<<< HEAD
             android:id="@id/buy_movie"
             style="?android:attr/buttonStyleSmall"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/movie_reel"
+=======
+<<<<<<< HEAD
+            android:id="@id/buy_movie"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/movie_reel"
+=======
+            android:id="@+id/buy_movie_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+>>>>>>> 3539a510bceb297b552d28bb3afd2334172b58a6
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
             android:text="@string/buy_the_movie"
             android:textColor="@color/red" />
     </LinearLayout>
 
+<<<<<<< HEAD
 </RelativeLayout>
+=======
+<<<<<<< HEAD
+</RelativeLayout>
+=======
+</RelativeLayout>
+>>>>>>> 3539a510bceb297b552d28bb3afd2334172b58a6
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1

@@ -92,9 +92,15 @@ public class CharacterActivity extends Activity
 	protected void onPause() {
 		super.onPause();
 		if(player != null){
+<<<<<<< HEAD
 			player.pause();
 			//player.release();
 			//player = null;
+=======
+			player.stop();
+			player.release();
+			player = null;
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
 		}
 	}
 	  /*

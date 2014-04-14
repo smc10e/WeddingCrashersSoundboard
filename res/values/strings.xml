@@ -6,7 +6,15 @@
     <string name="play_trailer">PLAY TRAILER</string>
     <string name="buy_the_movie">BUY THE MOVIE</string>
     <string name="help">HELP</string>
+<<<<<<< HEAD
     <string name="jeremy_q1">Tattoo on the middle back...</string>
+=======
+<<<<<<< HEAD
+    <string name="jeremy_q1">Tattoo on the middle back...</string>
+=======
+    <string name="jeremy_q1">"Tattoo on the lower back..."</string>
+>>>>>>> 3539a510bceb297b552d28bb3afd2334172b58a6
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
     <string name="Jeremy">JEREMY</string>
     <string name="red">Red</string>
     <string name="blue">Blue</string>
@@ -18,6 +26,16 @@
     <string name="title_activity_select_character">SelectCharacterActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_jeremy">JeremyActivity</string>
+<<<<<<< HEAD
     <string name="sounds">SOUNDS</string>
     <string name="stop">STOP</string>
+=======
+<<<<<<< HEAD
+    <string name="sounds">SOUNDS</string>
+    <string name="stop">STOP</string>
+=======
+    <string name="title_activity_john">JohnActivity</string>
+
+>>>>>>> 3539a510bceb297b552d28bb3afd2334172b58a6
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
 </resources>

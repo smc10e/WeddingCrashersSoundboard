@@ -59,6 +59,7 @@ public class Pageview_layout extends FragmentActivity{
 				appsession.Set_key(appsession.App_mute, String.valueOf(isChecked));
 				if(isChecked){
 					if(player != null){
+<<<<<<< HEAD
 						//player.pause();
 						player.setVolume(0,0);
 						//player.release();
@@ -70,6 +71,17 @@ public class Pageview_layout extends FragmentActivity{
 					player.setLooping(true);
 					player.start();*/
 					player.setVolume(1,1);
+=======
+						player.stop();
+						player.release();
+						player = null;
+					}
+				}else{
+					player = MediaPlayer.create(Pageview_layout.this, R.raw.faith);
+					player.seekTo(0);
+					player.setLooping(true);
+					player.start();
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
 				}
 				System.out.println(isChecked);
 			}
@@ -83,9 +95,15 @@ public class Pageview_layout extends FragmentActivity{
 	protected void onPause() {
 		super.onPause();
 		if(player != null){
+<<<<<<< HEAD
 			player.pause();
 			//player.release();
 			//player = null;
+=======
+			player.stop();
+			player.release();
+			player = null;
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
 		}
 	}
 
@@ -95,6 +113,7 @@ public class Pageview_layout extends FragmentActivity{
 	@Override
 	protected void onResume() {
 		super.onResume();
+<<<<<<< HEAD
 		/*if(player == null)
 			player = MediaPlayer.create(this, R.raw.shout);
 		player.start();*/
@@ -104,6 +123,13 @@ public class Pageview_layout extends FragmentActivity{
 				player.seekTo(0);
 				player.setLooping(true);
 			}
+=======
+		
+		if(appsession.Get_key(appsession.App_mute) == null || !Boolean.parseBoolean(appsession.Get_key(appsession.App_mute))){
+			player = MediaPlayer.create(this, R.raw.faith);
+			player.seekTo(0);
+			player.setLooping(true);
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
 			player.start();
 		}else{
 			toggleButton1.setChecked(Boolean.parseBoolean(appsession.Get_key(appsession.App_mute)));

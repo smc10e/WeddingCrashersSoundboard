@@ -44,7 +44,11 @@ public class SelectCharacterFragment extends Fragment{
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+<<<<<<< HEAD
 		data.add(new Celebrity("Chazz Reinhold", R.drawable.chazz_reinhold, R.drawable.chazz, 
+=======
+		data.add(new Celebrity("Chazz Reinhold", R.drawable.chazz_reinhold, R.drawable.jeremy, 
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
 				new String[] { 
 				"themeatloaf", 
 				"damnyouroger", 
@@ -65,6 +69,7 @@ public class SelectCharacterFragment extends Fragment{
 	    		"freaksyouout" 
 	    }));
 	    
+<<<<<<< HEAD
 	    data.add(new Celebrity("Jeremy Grey", R.drawable.jeremy_grey, R.drawable.jeremy, 
 	    		new String[] { 
 	    		"bodilyfluids", 
@@ -74,6 +79,17 @@ public class SelectCharacterFragment extends Fragment{
 	    		"tootraumatizedforascone", 
 	    		"weretheyreal", 
 	    		"makemeabicycle" 
+=======
+	    data.add(new Celebrity("John Beckwith", R.drawable.john_beckwith, R.drawable.john, 
+	    		new String[] { 
+	    		"readytogetdrunk", 
+	    		"sandbagging", 
+	    		"lockitup", 
+	    		"onsteroids", 
+	    		"whatishisdeal", 
+	    		"lovelytits", 
+	    		"freaksyouout" 
+>>>>>>> cf1dcfbdbf2d45b43d9834f7cb053e7403afe6b1
 	    }));
 	    
 	    
